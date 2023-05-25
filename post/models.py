@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from ckeditor.fields import RichTextField
 from django.utils.html import format_html
 
-
+# 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
 class Post(models.Model):
     title = models.CharField(max_length=250)
     img = models.ImageField(upload_to="post/")
